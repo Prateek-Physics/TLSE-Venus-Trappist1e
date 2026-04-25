@@ -19,9 +19,9 @@ The pipeline utilizes high-cadence SDO/HMI data spanning from June 3, 2012, to J
 
 ## Code Availability & Reproducibility
 All numerical engines and analytical tools are written in Python. The repository is fully reproducible; users can replicate the analysis by following the sequence:
-1. `detrending/Detrending.ipynb`
-2. `mcmc/mcmc_sampler.ipynb`
-3. `simulation/stellar_grid.py`
+1. `detrending.ipynb`
+2. `mcmc.ipynb`
+3. `simulation.py`
 
 *Note: The pipeline is optimized for Google Colab environments. See individual notebooks for dependency requirements (`batman`, `emcee`, `corner`).*
 
